@@ -14,7 +14,7 @@ on:
 
 permissions:
 
-  contents: write  # 🔥 dá permissão pro GitHub Actions publicar no gh-pages
+  contentes: write  # 🔥 dá permissão pro GitHub Actions publicar no gh-pages
 
 
 
@@ -66,12 +66,12 @@ jobs:
 
       - name: Deploy no GitHub Pages
 
-        uses: JoaoCintra03/actions-ActionProva@v3
+        uses: peaceiris/actions-gh-pages@v3
 
         with:
 
           GitHub_token: ${{ secrets.GITHUB_TOKEN }}
 
-          publish branch: ActionProva
+          publish branch: gh-pages
 
           publish_dir: ./
