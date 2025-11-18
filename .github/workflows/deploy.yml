@@ -14,7 +14,7 @@ on:
 
 permissions:
 
-  contentes: write  # 🔥 dá permissão pro GitHub Actions publicar no gh-pages
+  contents: write  # 🔥 dá permissão pro GitHub Actions publicar no gh-pages
 
 
 
